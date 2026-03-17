@@ -3,388 +3,246 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cursos - UniEvangélica</title>
+  <title>Cursos de Graduação</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="header-inner">
-      <div class="logo">
-        <span class="logo-icon">🎓</span>
-        <span class="logo-text">UniEvangélica</span>
-      </div>
-      <nav aria-label="Navegação principal">
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#cursos">Cursos</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header>
+    <h1>Cursos de Graduação</h1>
+    <p>Conheça todos os cursos disponíveis</p>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Cursos</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
   </header>
 
   <main>
+    <div class="grid">
 
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-content">
-        <h1 id="hero-title">Cursos de Graduação</h1>
-        <p>Descubra o curso ideal para transformar sua carreira e construir um futuro de sucesso.</p>
-        <a href="#cursos" class="btn-hero">Explorar Cursos</a>
-      </div>
-    </section>
-
-    <section id="cursos" class="courses-section" aria-labelledby="courses-title">
-      <div class="container">
-        <header class="section-header">
-          <h2 id="courses-title">Nossos Cursos</h2>
-          <p>Formação de qualidade em diversas áreas do conhecimento</p>
-        </header>
-
-        <div class="courses-grid" role="list">
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=220&fit=crop&auto=format" alt="Estudante de Administração em reunião de negócios" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Negócios</span>
-              <h3>Administração</h3>
-              <p>Forme-se para liderar organizações, gerir pessoas e tomar decisões estratégicas no mundo dos negócios.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Administração">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1500651230702-0e2d8a49d4e6?w=400&h=220&fit=crop&auto=format" alt="Campo agrícola e plantação" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Ciências Agrárias</span>
-              <h3>Agronomia</h3>
-              <p>Estude o solo, as plantas e o agronegócio para garantir a produção sustentável de alimentos.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Agronomia">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&h=220&fit=crop&auto=format" alt="Projeto arquitetônico e maquete" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Construção</span>
-              <h3>Arquitetura e Urbanismo</h3>
-              <p>Projete espaços funcionais e esteticamente belos, integrando arquitetura, design e planejamento urbano.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Arquitetura e Urbanismo">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=220&fit=crop&auto=format" alt="Planilhas e análise financeira" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Finanças</span>
-              <h3>Ciências Contábeis</h3>
-              <p>Domine o mundo das finanças, tributos e auditoria para atuar em empresas e escritórios contábeis.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Ciências Contábeis">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=220&fit=crop&auto=format" alt="Campanha publicitária e criação de conteúdo" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Comunicação</span>
-              <h3>Comunicação Social</h3>
-              <p>Desenvolva campanhas criativas e estratégias de marketing para conectar marcas ao seu público.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Comunicação Social">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=220&fit=crop&auto=format" alt="Designer trabalhando em projeto gráfico" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Artes</span>
-              <h3>Design Gráfico</h3>
-              <p>Crie identidades visuais, peças digitais e impressas com criatividade e domínio das ferramentas de design.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Design Gráfico">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=220&fit=crop&auto=format" alt="Livros de direito e martelo de juiz" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Jurídico</span>
-              <h3>Direito</h3>
-              <p>Torne-se um profissional jurídico apto a defender a justiça, interpretar leis e atuar em diversas áreas do Direito.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Direito">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=220&fit=crop&auto=format" alt="Atletas treinando e praticando esportes" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Saúde</span>
-              <h3>Educação Física</h3>
-              <p>Promova saúde, bem-estar e qualidade de vida por meio do esporte, treinamento e atividade física.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Educação Física">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=220&fit=crop&auto=format" alt="Enfermeira cuidando de paciente" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Saúde</span>
-              <h3>Enfermagem</h3>
-              <p>Cuide de pessoas com empatia e ciência, atuando em hospitais, clínicas e na saúde pública.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Enfermagem">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=220&fit=crop&auto=format" alt="Obras de engenharia civil e construção" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Engenharia</span>
-              <h3>Engenharia Civil</h3>
-              <p>Planeje e construa pontes, edifícios, estradas e infraestruturas que moldam cidades e sociedades.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Engenharia Civil">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=220&fit=crop&auto=format" alt="Código de programação em tela de computador" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Tecnologia</span>
-              <h3>Engenharia de Software</h3>
-              <p>Desenvolva sistemas, aplicativos e soluções tecnológicas inovadoras para um mundo cada vez mais digital.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Engenharia de Software">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=220&fit=crop&auto=format" alt="Circuitos elétricos e componentes eletrônicos" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Engenharia</span>
-              <h3>Engenharia Elétrica</h3>
-              <p>Projete sistemas elétricos, automação e energia para impulsionar a indústria e a tecnologia moderna.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Engenharia Elétrica">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?w=400&h=220&fit=crop&auto=format" alt="Peças mecânicas e engrenagens industriais" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Engenharia</span>
-              <h3>Engenharia Mecânica</h3>
-              <p>Projete máquinas, motores e sistemas mecânicos que movem a indústria e a inovação tecnológica.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Engenharia Mecânica">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=220&fit=crop&auto=format" alt="Tratamentos estéticos e cosméticos" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Beleza</span>
-              <h3>Estética e Cosmética</h3>
-              <p>Estude técnicas de beleza, skincare e bem-estar para atuar em clínicas, spas e centros estéticos.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Estética e Cosmética">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=220&fit=crop&auto=format" alt="Medicamentos e laboratório farmacêutico" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Saúde</span>
-              <h3>Farmácia</h3>
-              <p>Atue no desenvolvimento, manipulação e dispensação de medicamentos, contribuindo para a saúde da população.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Farmácia">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=220&fit=crop&auto=format" alt="Fisioterapeuta realizando tratamento" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Saúde</span>
-              <h3>Fisioterapia</h3>
-              <p>Reabilite e trate pacientes com técnicas especializadas, restaurando movimentos e qualidade de vida.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Fisioterapia">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=220&fit=crop&auto=format" alt="Pratos gourmet e gastronomia fina" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Artes Culinárias</span>
-              <h3>Gastronomia</h3>
-              <p>Explore o universo da culinária, criando experiências gastronômicas únicas em restaurantes e eventos.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Gastronomia">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=220&fit=crop&auto=format" alt="Inteligência artificial e redes neurais" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Tecnologia</span>
-              <h3>Inteligência Artificial</h3>
-              <p>Desenvolva sistemas inteligentes, machine learning e soluções baseadas em IA para o futuro da tecnologia.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Inteligência Artificial">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=220&fit=crop&auto=format" alt="Médico atendendo paciente em consultório" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Saúde</span>
-              <h3>Medicina</h3>
-              <p>Diagnostique, trate e previna doenças, dedicando-se ao cuidado integral da saúde humana.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Medicina">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=220&fit=crop&auto=format" alt="Veterinário cuidando de animais" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Saúde Animal</span>
-              <h3>Medicina Veterinária</h3>
-              <p>Cuide da saúde e bem-estar dos animais, atuando em clínicas, fazendas e pesquisa científica.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Medicina Veterinária">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=220&fit=crop&auto=format" alt="Alimentos saudáveis e nutrição balanceada" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Saúde</span>
-              <h3>Nutrição</h3>
-              <p>Oriente sobre alimentação saudável, dietas terapêuticas e segurança alimentar para promover saúde.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Nutrição">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=400&h=220&fit=crop&auto=format" alt="Consultório odontológico e equipamentos" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Saúde</span>
-              <h3>Odontologia</h3>
-              <p>Preserve a saúde bucal de seus pacientes, atuando em diagnósticos, tratamentos e prevenção odontológica.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Odontologia">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=400&h=220&fit=crop&auto=format" alt="Sessão de terapia e saúde mental" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Saúde Mental</span>
-              <h3>Psicologia</h3>
-              <p>Compreenda o comportamento humano e auxilie pessoas em seu desenvolvimento emocional e psicológico.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Psicologia">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=400&h=220&fit=crop&auto=format" alt="Diplomacia e relações entre países" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Ciências Sociais</span>
-              <h3>Relações Internacionais</h3>
-              <p>Analise política internacional, diplomacia e comércio exterior para atuar no cenário global.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Relações Internacionais">Saiba mais</a>
-            </div>
-          </article>
-
-          <article class="card" role="listitem">
-            <figure class="card-img">
-              <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=220&fit=crop&auto=format" alt="Formandos com diplomas de bacharelado" loading="lazy" />
-            </figure>
-            <div class="card-body">
-              <span class="card-tag">Graduação</span>
-              <h3>Bacharelado</h3>
-              <p>Obtenha formação sólida e completa em diversas áreas do conhecimento com o título de bacharel.</p>
-              <a href="#" class="card-btn" aria-label="Saiba mais sobre Bacharelado">Saiba mais</a>
-            </div>
-          </article>
-
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=200&fit=crop" alt="Administração" />
+        <div class="info">
+          <h2>Administração</h2>
+          <p>Aprenda a gerenciar empresas, liderar equipes e tomar decisões estratégicas.</p>
+          <a href="#">Saiba mais</a>
         </div>
       </div>
-    </section>
 
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=200&fit=crop" alt="Agronomia" />
+        <div class="info">
+          <h2>Agronomia</h2>
+          <p>Estude produção agrícola, manejo do solo e sustentabilidade no campo.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=400&h=200&fit=crop" alt="Arquitetura e Urbanismo" />
+        <div class="info">
+          <h2>Arquitetura e Urbanismo</h2>
+          <p>Projete edificações, espaços e cidades com criatividade e técnica.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=200&fit=crop" alt="Ciências Contábeis" />
+        <div class="info">
+          <h2>Ciências Contábeis</h2>
+          <p>Trabalhe com finanças, contabilidade e auditoria em empresas e escritórios.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop" alt="Comunicação Social" />
+        <div class="info">
+          <h2>Comunicação Social</h2>
+          <p>Crie campanhas, conteúdos e estratégias de publicidade e propaganda.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=200&fit=crop" alt="Design Gráfico" />
+        <div class="info">
+          <h2>Design Gráfico</h2>
+          <p>Desenvolva identidades visuais, peças digitais e materiais impressos.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=400&h=200&fit=crop" alt="Direito" />
+        <div class="info">
+          <h2>Direito</h2>
+          <p>Estude a legislação e atue como advogado, juiz ou consultor jurídico.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=200&fit=crop" alt="Educação Física" />
+        <div class="info">
+          <h2>Educação Física</h2>
+          <p>Promova saúde e qualidade de vida através do esporte e da atividade física.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=200&fit=crop" alt="Enfermagem" />
+        <div class="info">
+          <h2>Enfermagem</h2>
+          <p>Cuide de pacientes em hospitais, clínicas e na atenção básica à saúde.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=400&h=200&fit=crop" alt="Engenharia Civil" />
+        <div class="info">
+          <h2>Engenharia Civil</h2>
+          <p>Construa pontes, edifícios e infraestruturas essenciais para a sociedade.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=200&fit=crop" alt="Engenharia de Software" />
+        <div class="info">
+          <h2>Engenharia de Software</h2>
+          <p>Desenvolva sistemas e aplicativos para resolver problemas do mundo real.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&h=200&fit=crop" alt="Engenharia Elétrica" />
+        <div class="info">
+          <h2>Engenharia Elétrica</h2>
+          <p>Projete sistemas de energia, automação e eletrônica para a indústria.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?w=400&h=200&fit=crop" alt="Engenharia Mecânica" />
+        <div class="info">
+          <h2>Engenharia Mecânica</h2>
+          <p>Projete máquinas, motores e sistemas mecânicos para a indústria.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&h=200&fit=crop" alt="Estética e Cosmética" />
+        <div class="info">
+          <h2>Estética e Cosmética</h2>
+          <p>Trabalhe com beleza, skincare e bem-estar em clínicas e centros estéticos.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=400&h=200&fit=crop" alt="Farmácia" />
+        <div class="info">
+          <h2>Farmácia</h2>
+          <p>Atue no desenvolvimento e dispensação de medicamentos para a saúde pública.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&h=200&fit=crop" alt="Fisioterapia" />
+        <div class="info">
+          <h2>Fisioterapia</h2>
+          <p>Reabilite pacientes e restaure movimentos com técnicas especializadas.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=200&fit=crop" alt="Gastronomia" />
+        <div class="info">
+          <h2>Gastronomia</h2>
+          <p>Explore a culinária e crie experiências gastronômicas em restaurantes e eventos.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400&h=200&fit=crop" alt="Inteligência Artificial" />
+        <div class="info">
+          <h2>Inteligência Artificial</h2>
+          <p>Desenvolva sistemas inteligentes com machine learning e redes neurais.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=200&fit=crop" alt="Medicina" />
+        <div class="info">
+          <h2>Medicina</h2>
+          <p>Diagnostique e trate doenças, cuidando da saúde das pessoas.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&h=200&fit=crop" alt="Medicina Veterinária" />
+        <div class="info">
+          <h2>Medicina Veterinária</h2>
+          <p>Cuide da saúde de animais domésticos e silvestres em clínicas e fazendas.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=200&fit=crop" alt="Nutrição" />
+        <div class="info">
+          <h2>Nutrição</h2>
+          <p>Oriente sobre alimentação saudável e dietas para melhorar a saúde das pessoas.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=400&h=200&fit=crop" alt="Odontologia" />
+        <div class="info">
+          <h2>Odontologia</h2>
+          <p>Cuide da saúde bucal dos pacientes com tratamentos preventivos e curativos.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=400&h=200&fit=crop" alt="Psicologia" />
+        <div class="info">
+          <h2>Psicologia</h2>
+          <p>Compreenda o comportamento humano e ajude pessoas em seu desenvolvimento.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?w=400&h=200&fit=crop" alt="Relações Internacionais" />
+        <div class="info">
+          <h2>Relações Internacionais</h2>
+          <p>Estude política internacional e diplomacia para atuar no cenário global.</p>
+          <a href="#">Saiba mais</a>
+        </div>
+      </div>
+
+    </div>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <span class="logo-icon">🎓</span>
-        <span class="logo-text">UniEvangélica</span>
-        <p>Formando profissionais de excelência para um mundo em transformação.</p>
-      </div>
-      <nav aria-label="Links úteis">
-        <h4>Institucional</h4>
-        <ul>
-          <li><a href="#">Sobre a UniEvangélica</a></li>
-          <li><a href="#">Processo Seletivo</a></li>
-          <li><a href="#">Bolsas e Financiamentos</a></li>
-        </ul>
-      </nav>
-      <nav aria-label="Contato e suporte">
-        <h4>Contato</h4>
-        <ul>
-          <li><a href="#">Central de Atendimento</a></li>
-          <li><a href="#">Ouvidoria</a></li>
-          <li><a href="#">Portal do Aluno</a></li>
-        </ul>
-      </nav>
-      <div class="footer-contact">
-        <h4>Localização</h4>
-        <address>
-          Anápolis, Goiás<br />
-          Brasil<br />
-          <a href="tel:+556233101200">(62) 3310-1200</a>
-        </address>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>&copy; 2026 UniEvangélica. Todos os direitos reservados.</p>
-    </div>
+  <footer>
+    <p>&copy; 2026 UniEvangélica - Todos os direitos reservados</p>
   </footer>
 
 </body>
